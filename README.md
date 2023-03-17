@@ -3,7 +3,7 @@
 ## Parameters:
 
 - $\mathbb{Z}_p^* \rightarrow$ 2048-bit MODP Group described in RFC 3526 (valid for generating a Schnorr group)
-- $\equiv\mathbb{Z}_q^*$ $\mathbb{Z}_p^*$  where $q = (p - 1) / 2$
+- $\equiv\mathbb{Z}_q^*$ subgroup of $\mathbb{Z}_p^*$  where $q = (p - 1) / 2$
 - $(g, h) = (2, 4)$
 
 ## Launch Postgres database in docker:
