@@ -1,5 +1,11 @@
 # ZKP Chaum Pedersen protocol implementation in Rust
 
+## Parameters:
+
+- p => prime chosen from the 2048-bit MODP Group described in RFC 3526 (valid for generating a Schnorr group)
+- q = (p - 1) / 2 also prime
+- (g, h) = (2, 4)
+
 ## Launch Postgres database in docker:
 
 ```docker run --name postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres```
