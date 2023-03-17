@@ -2,9 +2,9 @@
 
 ## Parameters:
 
-- p => prime chosen from the 2048-bit MODP Group described in RFC 3526 (valid for generating a Schnorr group)
-- q = (p - 1) / 2 also prime
-- (g, h) = (2, 4)
+- $p \rightarrow$ prime chosen from the 2048-bit MODP Group described in RFC 3526 (valid for generating a Schnorr group)
+- $q = (p - 1) / 2$ also prime
+- $(g, h) = (2, 4)$
 
 ## Launch Postgres database in docker:
 
