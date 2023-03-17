@@ -2,7 +2,7 @@
 
 ## Parameters:
 
-- $\mathcal Z_p^* \rightarrow$ prime chosen from the 2048-bit MODP Group described in RFC 3526 (valid for generating a Schnorr group)
+- $\mathbb{Z}_p^* \rightarrow$ prime chosen from the 2048-bit MODP Group described in RFC 3526 (valid for generating a Schnorr group)
 - $q = (p - 1) / 2$
 - $(g, h) = (2, 4)$
 
